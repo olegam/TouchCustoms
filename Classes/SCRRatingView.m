@@ -57,9 +57,10 @@ typedef UIImageView *		StarViewRef;
 	NSInteger previousUserRating = _userRating;
 	
 	if (!value) {
-		
 		if (!_userRating /* User hasn't voted yet. */) {
 			[self __visualizeCurrentRating:self.rating];
+		} else if (value == 0) {
+			[self __visualizeCurrentRating:value];
 		} else {
 			[self __visualizeCurrentRating:_userRating]; /* Visualizing previous user rating. */
 		}
