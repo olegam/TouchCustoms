@@ -479,7 +479,7 @@
 				GCC_PREFIX_HEADER = TouchCustoms_Prefix.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = "SC_LOG_LEVEL=2";
 				INSTALL_PATH = /usr/local/lib;
-				IPHONEOS_DEPLOYMENT_TARGET = 3.1.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				PRODUCT_NAME = TouchCustoms;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
