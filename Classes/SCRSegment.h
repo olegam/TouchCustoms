@@ -46,6 +46,8 @@ typedef enum {
 @property (nonatomic, readonly) UIImageView *imageView;
 
 + (SCRSegment *)segmentWithStyle:(SCRSegmentStyle)style;
+
+- (id)initWithStyle:(SCRSegmentStyle)style;
 - (id)initWithStyle:(SCRSegmentStyle)style frame:(CGRect)frame;
 
 @end
