@@ -33,7 +33,7 @@
 }
 
 /** A Boolean value that indicates whether audio-level metering is enabled (YES), or not (NO). */
-@property (getter=isMeteringEnabled) BOOL meteringEnabled;
+@property (nonatomic, getter=isMeteringEnabled) BOOL meteringEnabled;
 /** Returns the average power for a given channel, in decibels, for the sound. */
 - (float)averagePowerForChannel:(NSUInteger)channelNumber;
 /** Returns the peak power for a given channel, in decibels, for the sound being recorded. */
